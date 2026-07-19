@@ -1,0 +1,38 @@
+/* Remove the white border browsers add */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* The black bar */
+.header {
+    background-color: #000;
+    color: white;
+
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+}
+
+/* Holds logo and text */
+.logo-area {
+    display: flex;
+    align-items: center;
+
+    margin-left: 20px;
+}
+
+/* Logo */
+.logo {
+    width: 40px;
+    height: 40px;
+
+    margin-right: 12px;
+}
+
+/* Studio name */
+.studio-name {
+    font-size: 24px;
+    margin: 0;
+}
