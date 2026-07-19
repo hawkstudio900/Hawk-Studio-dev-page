@@ -1,19 +1,25 @@
-/* Remove the white border browsers add */
+/* Entire page */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
 }
 
-/* The black bar */
+
+/* Header */
 .header {
-    background-color: #ffff;
-    color: black;
+    background-color: #000;
+    color: white;
 
     height: 70px;
 
     display: flex;
     align-items: center;
+
+    border-bottom: 1px solid #222;
 }
+
 
 /* Holds logo and text */
 .logo-area {
@@ -23,16 +29,29 @@ body {
     margin-left: 20px;
 }
 
+
 /* Logo */
 .logo {
     width: 40px;
     height: 40px;
 
+    object-fit: contain;
+
     margin-right: 12px;
 }
+
 
 /* Studio name */
 .studio-name {
     font-size: 24px;
     margin: 0;
+    color: white;
+}
+
+
+/* Main content */
+main,
+aside,
+footer {
+    color: white;
 }
